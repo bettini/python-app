@@ -11,3 +11,7 @@ class BudgetRecord:
     amount: Decimal
     budget_date: date
     row_hash: str
+
+    def __post_init__(self):
+        if self.amount < 0:
+            raise ValueError("Budget amount must not be negative")
