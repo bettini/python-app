@@ -1,0 +1,5 @@
+client_id,client_name,category,amount,date
+C001,Acme Corp,Marketing,1200.00,2026-02-01
+C001,Acme Corp,Operations,800.00,2026-02-01
+C002,Globex Inc,Marketing,1500.00,2026-02-01
+C002,Globex Inc,IT,950.00,2026-02-01
